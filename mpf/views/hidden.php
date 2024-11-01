@@ -1,0 +1,1 @@
+<input type="hidden" value="<?php echo $settings[$option['id']]; ?>" name="<?php echo $option['id']; ?>" id="mpf-plugin-field-<?php echo $option['id']; ?>" class="mpf-plugin-hidden" />

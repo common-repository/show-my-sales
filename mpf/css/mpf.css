@@ -1,0 +1,168 @@
+/***********************************
+	Common styles
+***********************************/
+
+.mpf-plugin-onehalf {
+	float: left;
+	width: 46%;
+	margin: 0 4% 1em 0;
+}
+.mpf-plugin-onethird {
+	float: left;
+	width: 31%;
+	margin: 0 2% 1em 0;
+}
+.mpf-plugin-clear {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.mpf-plugin-hidden { display: none }
+
+
+
+/***********************************
+	Nav tabs
+***********************************/
+
+#mpf-plugin-tabs {}
+#mpf-plugin-tabs span { cursor: pointer }
+#mpf-plugin-tabs .nav-tab-active,
+#mpf-plugin-tabs span:hover { color: #464646 }
+
+
+
+/***********************************
+	Panes
+***********************************/
+
+.mpf-plugin-pane {
+	margin: 20px 0;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #f0f0f0;
+}
+.js .mpf-plugin-pane {
+	padding-bottom: 0;
+	border: none;
+}
+
+
+
+/***********************************
+	Fields
+***********************************/
+
+#mpf-plugin-settings .form-table td,
+#mpf-plugin-settings .form-table th { padding-bottom: 20px }
+
+#mpf-plugin-settings .description {
+	display: block;
+	margin-top: 5px;
+}
+
+.mpf-plugin-textarea {
+	width: 80%;
+	min-width: 25em;
+	max-width: 50em;
+}
+
+.mpf-plugin-code {
+	width: 80%;
+	min-width: 25em;
+	max-width: 50em;
+	padding: 4px;
+	font-size: 13px;
+	font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+	line-height: 21px !important;
+	background: scroll url('../images/code.png');
+}
+
+.mpf-plugin-select {
+	width: 40%;
+	min-width: 25em;
+	max-width: 50em;
+}
+
+.mpf-plugin-checkbox-group label {
+	display: inline-block;
+	margin: 0 0 5px 0;
+}
+
+
+/***********************************
+	Color picker
+***********************************/
+
+.mpf-plugin-color-picker {
+	position: relative;
+	width: 300px;
+}
+.mpf-plugin-color-picker-preview {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+	background: #fff;
+	border: 1px solid #eee;
+	z-index: 4;
+}
+
+
+
+/***********************************
+	Notifications
+***********************************/
+
+#mpf-plugin-settings .mpf-plugin-notification {
+	position: relative;
+	margin: 20px 0;
+}
+#mpf-plugin-settings .mpf-plugin-notification small {
+	float: right;
+	display: none;
+	color: #555;
+}
+.js #mpf-plugin-settings .mpf-plugin-notification:hover small { display: inline }
+
+
+
+/***********************************
+	Actions bar
+***********************************/
+
+.mpf-plugin-actions-bar {
+	margin-top: 20px;
+	padding: 10px;
+	background: #f5f5f5;
+	border-top: 1px solid #eee;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.mpf-plugin-spin,
+.mpf-plugin-success-tip {
+	display: none;
+	margin-left: 10px;
+}
+.mpf-plugin-success-tip { color: #0b0 }
+.mpf-plugin-spin img,
+.mpf-plugin-success-tip img { margin: 0 5px -3px 0 }
+
+#mpf-logo
+{
+	background-image:url(../images/mindstien.jpg);
+	background-repeat: no-repeat;
+	height:106px;
+	width:410px;
+	float:right;
+}
+
+.mceToolbar td,tr.mceFirst td,.mceLast td {
+    padding: 0 !important;
+}
+
